@@ -5,6 +5,7 @@ export const Resume = () => {
   return (
     <div className='m-5'>
         <h1>My <span>Resume</span></h1><br />
+        <h3>Click <a href={resume} download="aadesh_resume"><span>Here</span></a> to download</h3><br />
         <div>
         <embed src={resume} width="90%" height="2000vh" />
         </div>
