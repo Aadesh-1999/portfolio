@@ -41,7 +41,7 @@ span{
     transform: translate(-50%, -50%);
     /* margin-left: 30%; */
     text-align: center;
-    min-height: 50vh;
+    min-height: 36vh;
 }
 
 *{

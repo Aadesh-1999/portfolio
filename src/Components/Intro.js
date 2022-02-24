@@ -30,7 +30,7 @@ export const Intro = () => {
                 <h4>- <span>Currently Looking for full time opportunity in Web development (FrontEnd domain)</span></h4><br />
                 <br /><br />
             </div>
-            <div className="socials my-5">
+            <div className="socials mt-5">
                 <h2>Feel Free to connect with me <span>on</span></h2><br /><br />
                 <div className='d-flex justify-content-center align-items-center'>
                     <a href="https://github.com/Aadesh-1999"
