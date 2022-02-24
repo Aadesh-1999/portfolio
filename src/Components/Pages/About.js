@@ -7,7 +7,7 @@ import eclipse from '../../Resources/Images/eclipse.svg';
 
 export const About = () => {
     return (
-        <div className='row mx-5 my-5 py-5 d-flex justify-content-center'>
+        <div className='row my-5 py-5 d-flex justify-content-center'>
             <div className='about p-5 col-12 img1'>
                 <h1>Who I am ?</h1><br /><br /><br />
                 <h2>Hi All, I am Aadesh from <span>Pune, Maharashtra</span></h2><br />
@@ -53,7 +53,7 @@ export const About = () => {
                     </div>
                 </div>
             </div><hr />
-            <div className='col-12 my-5 row d-flex justify-content-center'>
+            <div className='col-12 mt-5 row d-flex justify-content-center'>
                 <h1 className='col-12 '><span>Tools</span> I use</h1>
                 <div className="col-12 row d-flex justify-content-center my-5 cardLogos">
                     <div className="col-3 px-5">
