@@ -12,10 +12,10 @@ export const Footer = (props) => {
                 <div className='col-4'>
                     {props.name}
                 </div>
-                <div className='col-4'>
-                    {/* &copy; 2022 */}
-                </div>
-                <div className='col-4 d-flex justify-content-around align-items-center'>
+                {/* { <div className='col-1'>
+                    { &copy; 2022 }
+                </div> } */}
+                <div className='col-8 d-flex justify-content-around align-items-center'>
                     <a href="https://github.com/Aadesh-1999"
                         className="Github social">
                         <i className="fa-brands fa-github m-2"></i>
