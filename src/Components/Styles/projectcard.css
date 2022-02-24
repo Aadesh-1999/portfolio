@@ -1,0 +1,14 @@
+.projectCard{
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4);
+}
+
+.projectCard:hover{
+    border: 2px solid #CD5FF8 !important;
+    /* border-radius: 35px; */
+    color:black;
+    transform: scale(1.02,1.02);
+    transition-duration: 0.5s;
+    animation-duration: 0.5s;
+    background-color: beige;
+}

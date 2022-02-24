@@ -1,0 +1,16 @@
+.about{
+    text-align: left;
+}
+
+.skills{
+    text-align: center;
+}
+.img1{
+    background-image: url('../../../Resources/Images/codingguy.png');
+    min-height:70vh ;min-width: 30vw;
+    background-repeat: no-repeat;
+    z-index: 3;
+    background-size: 40%;
+    background-position: top right;
+}
+

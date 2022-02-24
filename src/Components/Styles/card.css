@@ -1,0 +1,17 @@
+.card{
+    color: rgb(255, 255, 255);
+    font-size:5rem;
+    background-color: transparent;
+    transition-duration: 1s;
+    animation-duration: 1s;
+    text-align: center;
+}
+.skill-logo{
+    font-size: 100%;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 1s;
+    animation-duration: 1s;
+}
