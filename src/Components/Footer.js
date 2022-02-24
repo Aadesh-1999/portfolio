@@ -10,7 +10,7 @@ export const Footer = (props) => {
         <div className='footerParent fixed-bottom mt-5 shadow bg-dark text-white'>
             <footer className='row d-flex jutify-content-centre align-content-centre p-1' style={footerStyle}>
                 <div className='col-4'>
-                    {props.name} &copy; 2022
+                    {props.name}
                 </div>
                 <div className='col-4'>
                     {/* &copy; 2022 */}
