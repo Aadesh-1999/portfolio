@@ -7,8 +7,8 @@ import eclipse from '../../Resources/Images/eclipse.svg';
 
 export const About = () => {
     return (
-        <div className='row my-5 py-5 d-flex justify-content-center'>
-            <div className='about p-5 col-12 img1'>
+        <div className='row m-5 p-5 d-flex justify-content-center'>
+            <div className='about py-5 col-12 img1'>
                 <h1>Who I am ?</h1><br /><br /><br />
                 <h2>Hi All, I am Aadesh from <span>Pune, Maharashtra</span></h2><br />
                 <h2>I am good at <span>HTML, CSS, JavaScript, React</span></h2><br />
@@ -77,10 +77,10 @@ export const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-3 px-5">
+                    <div className="col-3 px-5  d-flex justify-content-center">
                         <Card cardImgClass="fa-brands fa-github" />
                     </div>
-                    <div className="col-3 px-5">
+                    <div className="col-3 px-5  d-flex justify-content-center">
                         <Card cardImgClass="fa-brands fa-unsplash" />
                     </div>
                 </div>
