@@ -7,7 +7,7 @@ import eclipse from '../../Resources/Images/eclipse.svg';
 
 export const About = () => {
     return (
-        <div className='row m-5 p-5 d-flex justify-content-center'>
+        <div className='row p-5 d-flex justify-content-center'>
             <div className='about py-5 col-12 img1'>
                 <h1>Who I am ?</h1><br /><br /><br />
                 <h2>Hi All, I am Aadesh from <span>Pune, Maharashtra</span></h2><br />
