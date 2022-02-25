@@ -4,11 +4,11 @@ import './styles/projects.css';
 
 export const Projects = () => {
     return (
-        <div className='m-5'>
+        <div className='m-5 p-5 d-flex justify-content-center'>
             <div className="title">
                 <h1>My <span>Recent Works</span></h1><br />
                 <h3>Few of my personal HTML, CSS, JavaScript, BootStrap & ReactJS Projects.</h3>
-                <div className="projects m-5 row">
+                <div className="projects my-5 row">
                     <div className="col-12 col-md-6 col-lg-4 my-3">
                         <ProjectCard cardTitle="Speech to Sketch" cardText="This was my final year project. #Tech stack used : HTML, CSS, JavaScript, Google Speech API, TenserFlow, NLP" projectLink='https://finalyear-project-aadesh.vercel.app/' />
                     </div>
