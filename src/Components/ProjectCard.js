@@ -6,9 +6,9 @@ export const ProjectCard = (props) => {
         <div>
             <div className="card projectCard text-center border" style={{"width": "18rem","height":"25rem"}}>
                 <div className="card-body py-4">
-                    <h2 className="card-title p-2"><span>{props.cardTitle}</span></h2>
+                    <h2 className="card-title p-2"><strong><i><span>{props.cardTitle}</span></i></strong></h2>
                     <h5 className="card-text">{props.cardText}</h5>
-                    <a href={props.projectLink} rel="noreferrer" target="_blank" className="btn btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;&nbsp;&nbsp;View Project</a>
+                    <a href={props.projectLink} rel="noreferrer" target="_blank" className="btn btn-primary"><i class="fa-solid fa-arrow-up-right-from-square"></i>&nbsp;&nbsp;&nbsp;View {props.linkFor}</a>
                 </div>
             </div>
         </div>
@@ -18,10 +18,11 @@ export const ProjectCard = (props) => {
 ProjectCard.defaultProps = {
     cardTitle: "Special title treatment",
     cardText: "With supporting text below as a natural lead-in to additional content.",
-    projectLink:'https://finalyear-project-aadesh.vercel.app/'
+    projectLink:'https://finalyear-project-aadesh.vercel.app/',
+    linkFor:"Project"
 }
 ProjectCard.propTypes = {
-    cardTitle: PropTypes.string,
-    cardText: PropTypes.string,
-
+     cardTitle: PropTypes.string,
+    // cardText: PropTypes.string,
+    // linkFor: PropTypes.string,
 }

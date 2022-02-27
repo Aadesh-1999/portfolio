@@ -26,6 +26,9 @@ export const Header = (props) => {
                 <NavLink className="nav-link" to="/resume">Resume</NavLink>
               </li>
               <li className="nav-item mx-4">
+                <NavLink className="nav-link" to="/certifications">Certifications</NavLink>
+              </li>
+              <li className="nav-item mx-4">
                 <NavLink className="nav-link" to="/blogs">Blogs</NavLink>
               </li>
               <li className="nav-item mx-4">
