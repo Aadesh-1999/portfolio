@@ -1,0 +1,25 @@
+.outer{
+    height:80vh;
+    width:1000px;
+    border:2px solid red;
+    /* position: relative;
+    left: 50%;top: 50%;
+    transform: translate(-50%,0); */
+    margin: auto;
+    background-color: mediumseagreen;
+}
+@media only screen and (min-width:480px){
+    .outer{
+        background-color: aqua;
+    }
+}
+@media only screen and (min-width:600px){
+    .outer{
+        background-color: brown;
+    }
+}
+@media only screen and (min-width:1200px){
+    .outer{
+        background-color: pink;
+    }
+}

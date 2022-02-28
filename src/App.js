@@ -13,6 +13,7 @@ import { Contact } from './Components/Pages/Contact';
 import { Blogs } from './Components/Pages/Blogs';
 import { Projects } from './Components/Pages/Projects';
 import { Certifications } from './Components/Pages/Certifications';
+import { Playground } from './Components/Pages/Playground';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/resume" element={<><Header/><Resume/><Footer/></>} />
           <Route path="/contact" element={<><Header/><Contact/><Footer/></>} />
           <Route path="/blogs" element={<><Header/><Blogs/><Footer/></>}/>
+          <Route path="/playground" element={<><Header/><Playground/><Footer/></>}/>
           <Route path="/certifications" element={<><Header/><Certifications/><Footer/></>}>
             <Route path='hindi' element={<></>} />
             <Route path='marathi' element={<></>} />

@@ -24,6 +24,8 @@ export const Intro = () => {
                 <h4>- SDE<span> @ Persistent systems</span></h4><br />
                 {/* <h3>I am...</h3><br /> */}
                 <h4>- Fluent in <span>HTML, CSS, JavaScript(ES6), Bootstrap5</span></h4><br />
+                <h4>- <span>5*</span> Rating in <span>JavaScript</span> on <span>HackerRank</span></h4><br />
+                <h4>- <span>4*</span> Rating in <span>Problem Solving</span> on <span>HackerRank</span></h4><br />
                 <h4>- Begineer with <span>ReactJS & NodeJS</span></h4><br />
                 <h4>- Love <span>Web Technologies and Product Building</span></h4><br />
                 <h4>- Enthusiastic about <span>web3</span></h4><br />
